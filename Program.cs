@@ -6,7 +6,7 @@ namespace Kalkulator_1._0
     {
         static void Main(string[] args)
         {
-            Console.Title = "Kalkulator";
+            Console.Title = "Calculator";
             Console.WriteLine("Author : Yudhitya M. Renandra");
             Console.WriteLine("Fun Project\n");
             Calc();
@@ -16,9 +16,9 @@ namespace Kalkulator_1._0
             mathOperation math = new mathOperation();
             double a = 0;
             double b = 0;
-            string operasi = "0";
-            Console.WriteLine("=============KALKULATOR=============\n");
-            Console.Write("Masukkan Angka Pertama : ");
+            string operation = "0";
+            Console.WriteLine("=============CALCULATOR=============\n");
+            Console.Write("Input First Number : ");
             try
             {
                 a = double.Parse(Console.ReadLine());
@@ -28,8 +28,8 @@ namespace Kalkulator_1._0
                 string isNum = "y";
                 while (isNum == "y")
                 {
-                    Console.WriteLine("Tolong hanya masukkan angka");
-                    Console.Write("Masukkan angka Pertama : ");
+                    Console.WriteLine("Only Input Number");
+                    Console.Write("Input First Number : ");
                     try
                     {
                         a = double.Parse(Console.ReadLine());
@@ -42,7 +42,7 @@ namespace Kalkulator_1._0
                 }
             }
             
-            Console.Write("Masukkan Angka kedua : ");
+            Console.Write("Input Second Number : ");
             try
             {
                 b = double.Parse(Console.ReadLine());
@@ -52,8 +52,8 @@ namespace Kalkulator_1._0
                 string isNum = "y";
                 while (isNum == "y")
                 {
-                    Console.WriteLine("Tolong hanya masukkan angka");
-                    Console.Write("Masukkan angka Kedua : ");
+                    Console.WriteLine("Only Input Number");
+                    Console.Write("Input Second Number : ");
                     try
                     {
                         b = double.Parse(Console.ReadLine());
@@ -66,62 +66,62 @@ namespace Kalkulator_1._0
                 }
             }
             
-            Console.WriteLine("Pilihan operasi ");
-            Console.WriteLine("[1] Tambah   (+)");
-            Console.WriteLine("[2] Kurang   (-)");
-            Console.WriteLine("[3] Kali     (*)");
-            Console.WriteLine("[4] Bagi     (/)");
-            Console.Write("Pilih sebuah operasi(1/2/3/4) : ");
+            Console.WriteLine("List of operation ");
+            Console.WriteLine("[1] Addition         (+)");
+            Console.WriteLine("[2] Subtraction      (-)");
+            Console.WriteLine("[3] Multiplication   (*)");
+            Console.WriteLine("[4] Division         (/)");
+            Console.Write("Select an operation(1/2/3/4) : ");
             
-            operasi = Console.ReadLine();
+            operation = Console.ReadLine();
         
-            while (operasi != "1" && operasi != "2" && operasi != "3" && operasi != "4" )
+            while (operation != "1" && operation != "2" && operation != "3" && operation != "4" )
             {
-                Console.WriteLine("Pilihan operasi tidak tersedia");
-                Console.Write("Pilih sebuah operasi(1/2/3/4) : ");
-                operasi = Console.ReadLine();
+                Console.WriteLine("Your choice is not available");
+                Console.Write("Select an operation(1/2/3/4) : ");
+                operation = Console.ReadLine();
             }
             
-            double hasil = 0;
-            switch (operasi)
+            double Result= 0;
+            switch (operation)
             {
                 case "1":
-                hasil = math.Tambah(a,b);
-                Console.WriteLine($"Hasil dari {a} + {b} = {hasil}"); 
+                Result= math.Add(a,b);
+                Console.WriteLine($"Result {a} + {b} = {Result}"); 
                 break;
                 
                 case "2":
-                hasil = math.Kurang(a,b);
-                Console.WriteLine($"Hasil dari {a} - {b} = {hasil}"); 
+                Result= math.Minus(a,b);
+                Console.WriteLine($"Result {a} - {b} = {Result}"); 
                 break;
 
                 case "3":
-                hasil = math.Kali(a,b);
-                Console.WriteLine($"Hasil dari {a} * {b} = {hasil}"); 
+                Result= math.Times(a,b);
+                Console.WriteLine($"Result {a} * {b} = {Result}"); 
                 break;
 
                 case "4":
                 if (b == 0)
                 {
-                    Console.WriteLine("Tidak bisa membagi dengan nol(0)");
+                    Console.WriteLine("Cant divided by zero(0)");
                 }
                 else
                 {
-                    hasil = math.Bagi(a,b);
-                    Console.WriteLine($"Hasil dari {a} / {b} = {hasil}"); 
+                    Result= math.Divided(a,b);
+                    Console.WriteLine($"Result {a} / {b} = {Result}"); 
                 }
                 break;
             }
             Console.WriteLine();
-            ulangCalc();
+            againCount();
 
             Console.ReadKey();
         }
-        static void ulangCalc()
+        static void againCount()
         {
-            Console.Write("Apakah Anda masih ingin berhitung?(y/n) : ");
-            string ulang = Console.ReadLine();
-            if (ulang == "y")
+            Console.Write("Do you still want to count?(y/n) : ");
+            string again = Console.ReadLine();
+            if (again == "y")
             {
                 Calc();
             }
@@ -134,19 +134,19 @@ namespace Kalkulator_1._0
     }
     class mathOperation
     {
-        public double Tambah(double a, double b)
+        public double Add(double a, double b)
         {
             return a + b;
         }
-        public double Kurang(double a, double b)
+        public double Minus(double a, double b)
         {
             return a - b;
         }
-        public double Kali(double a, double b)
+        public double Times(double a, double b)
         {
             return a * b;
         }
-        public double Bagi(double a, double b)
+        public double Divided(double a, double b)
         {
             return a / b;
         }
