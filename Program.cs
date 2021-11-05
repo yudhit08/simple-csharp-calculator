@@ -6,6 +6,7 @@ namespace Kalkulator_1._0
     {
         static void Main(string[] args)
         {
+            Console.Title = "Kalkulator";
             Console.WriteLine("Author : Yudhitya M. Renandra");
             Console.WriteLine("Fun Project\n");
             Calc();
