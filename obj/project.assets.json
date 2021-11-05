@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Belajar ae\\C#\\Kalkulator 1.0\\Kalkulator 1.0.csproj",
-      "projectName": "Kalkulator 1.0",
-      "projectPath": "C:\\Users\\USER\\Desktop\\Belajar ae\\C#\\Kalkulator 1.0\\Kalkulator 1.0.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Belajar ae\\C#\\Calculator\\Calculator.csproj",
+      "projectName": "Calculator",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Belajar ae\\C#\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\Belajar ae\\C#\\Kalkulator 1.0\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Belajar ae\\C#\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,16 @@
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\bin\Debug\net5.0\Calculator.exe
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\bin\Debug\net5.0\Calculator.deps.json
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\bin\Debug\net5.0\Calculator.runtimeconfig.json
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\bin\Debug\net5.0\Calculator.runtimeconfig.dev.json
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\bin\Debug\net5.0\Calculator.dll
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\bin\Debug\net5.0\ref\Calculator.dll
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\bin\Debug\net5.0\Calculator.pdb
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\obj\Debug\net5.0\Calculator.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\obj\Debug\net5.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\obj\Debug\net5.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\obj\Debug\net5.0\Calculator.AssemblyInfo.cs
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\obj\Debug\net5.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\obj\Debug\net5.0\Calculator.dll
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\obj\Debug\net5.0\ref\Calculator.dll
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\obj\Debug\net5.0\Calculator.pdb
+C:\Users\USER\Desktop\Belajar ae\C#\Calculator\obj\Debug\net5.0\Calculator.genruntimeconfig.cache
