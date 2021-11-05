@@ -1,2 +1,2 @@
 # Simple-CSharp-Calculator
-Free to use ,enjoy :v
+Free to use, enjoy :v
